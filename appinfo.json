@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble",
+    "longName": "Tutorial",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/Christmas Jumper.ttf",
+                "name": "FONT_KEY_Chritsmas_32",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Tutorial",
+    "uuid": "007c7ac8-aef1-4b51-a5dc-fb4f81249e8c",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
