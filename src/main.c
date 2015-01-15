@@ -1,10 +1,12 @@
 #include <pebble.h>
-//Hola  
+
+//What "static" means in C -> http://stackoverflow.com/questions/572547/what-does-static-mean-in-a-c-program
 static Window *s_main_window;
 static TextLayer *s_time_layer;
 
 static GFont s_time_font;
 
+//What "void" means inC -> http://stackoverflow.com/questions/1043034/what-does-void-mean-in-c-c-and-c
 static void update_time() {
   // Get a tm structure
   time_t temp = time(NULL); 
@@ -34,7 +36,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_time_layer, "00:00");
   
     //Create GFont
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_SF_Distant_Galaxy_Alternate_40));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_Chritsmas_32));
 
   //Apply to TextLayer
   text_layer_set_font(s_time_layer, s_time_font);

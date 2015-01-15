@@ -9,11 +9,6 @@
     "resources": {
         "media": [
             {
-                "file": "fonts/SF Distant Galaxy Alternate.ttf",
-                "name": "SF_Distant_Galaxy_Alternate_40",
-                "type": "font"
-            },
-            {
                 "file": "fonts/Christmas Jumper.ttf",
                 "name": "FONT_KEY_Chritsmas_32",
                 "type": "font"
