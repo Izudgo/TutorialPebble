@@ -34,7 +34,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_time_layer, "00:00");
   
     //Create GFont
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_Chritsmas_32));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_SF_Distant_Galaxy_Alternate_40));
 
   //Apply to TextLayer
   text_layer_set_font(s_time_layer, s_time_font);
